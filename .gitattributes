@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+# Set text or binary attributes
+*.txt text 
+*.png binary
+
+# Specify EOL handling
+*.sh eol=lf
+*.bat eol=crlf
