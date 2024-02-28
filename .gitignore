@@ -1,0 +1,5 @@
+# Ignoring Specific Files, Folders, File types
+
+.env
+/logs
+*.png
